@@ -26,12 +26,12 @@ const HeroSection = () => {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col md:flex-row gap-3">
             <PrimaryButton>Join Now</PrimaryButton>
 
             <Button
               size="lg"
-              className="w-full flex items-center gap-2 justify-center bg-transparent text-neutral-800 px-4 py-2 h-12"
+              className="w-full flex items-center gap-2 justify-center bg-transparent text-neutral-800 px-4 py-2 h-12 md:w-60"
             >
               <div className="rounded-full p-2">
                 <VideoCameraIcon className="size-6 text-primary" />
@@ -40,6 +40,7 @@ const HeroSection = () => {
             </Button>
           </div>
         </div>
+
         {/* Image */}
         <Image
           className="md:w-full"

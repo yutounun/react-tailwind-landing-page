@@ -12,22 +12,22 @@ const Mode = ({
   imgSrc: string;
 }) => {
   return (
-    <div>
-      <div className="flex flex-col gap-4">
-        <div className="flex gap-3 text-h4">
-          <div className="rounded-full bg-primary px-2 text-neutral-100">
-            <h4 className="rounded-full bg-primary px-1 py-1 text-neutral-100 text-lg">
-              {index}
-            </h4>
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+      <div className="flex flex-col gap-4 md:w-[40%]">
+        <div className="flex gap-3 text-h4 md:text-d-h4 items-center">
+          <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-neutral-100">
+            <h4 className="text-lg">{index}</h4>
           </div>
           <h4 className="text-secondary">{title}</h4>
         </div>
 
-        <p className="text-sm">{desc}</p>
+        <p className="text-sm md:text-d-sm">{desc}</p>
       </div>
 
       <div className="flex justify-center">
-        <Image src={imgSrc} alt={imgSrc} height="300" width="300" />
+        <div className="relative w-60 h-52 md:w-[500px] md:h-[420px]">
+          <Image src={imgSrc} alt={imgSrc} layout="fill" />
+        </div>
       </div>
     </div>
   );

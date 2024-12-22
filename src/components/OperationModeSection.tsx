@@ -3,7 +3,7 @@ import Subtitle from "./Subtitle";
 
 const OperationalModeSection = () => {
   return (
-    <div className="flex flex-col gap-16 px-[30px] py-16">
+    <div className="flex flex-col gap-16 px-[30px] md:px-[150px] py-16">
       <Subtitle icon>
         <span className="font-bold">Operation</span> Mode
       </Subtitle>

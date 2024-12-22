@@ -14,7 +14,7 @@ const Subtitle = ({
         icon ? "justify-between" : "justify-center"
       }`}
     >
-      <h2 className="text-h3 text-neutral-900">{children}</h2>
+      <h2 className="text-h3 md:text-d-h3 text-neutral-900">{children}</h2>
       {icon && (
         <Image
           src="/service-heading.png"

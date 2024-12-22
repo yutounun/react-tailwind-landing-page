@@ -99,8 +99,8 @@ const config: Config = {
         // Desktop-specific heading styles
         "d-h1": "48px", // Desktop Heading 1
         "d-h2": "42px", // Desktop Heading 2
-        "d-h3": "32px", // Desktop Heading 3
-        "d-h4": "28px", // Desktop Heading 4
+        "d-h3": "36px", // Desktop Heading 3
+        "d-h4": "40px", // Desktop Heading 4
 
         // Body text
         xs: "10px", // Extra small text
@@ -122,7 +122,7 @@ const config: Config = {
         "d-xl": "20px", // Desktop Extra large text
         "d-2xl": "24px", // Desktop 2 times extra large text
         "d-3xl": "36px", // Desktop 3 times extra large text
-        "d-4xl": "48px", // Desktop 4 times extra large text
+        "d-4xl": "40px", // Desktop 4 times extra large text
         "d-5xl": "64px", // Desktop 5 times extra large text
         "d-6xl": "80px", // Desktop 6 times extra large text
       },

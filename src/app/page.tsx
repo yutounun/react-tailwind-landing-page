@@ -7,7 +7,7 @@ import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
   return (
-    <div className="container font-lato">
+    <div className="font-lato">
       <PrimaryBar />
       <HeroSection />
       <ServicesSection />
