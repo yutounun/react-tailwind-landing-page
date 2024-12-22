@@ -2,10 +2,11 @@ import { VideoCameraIcon } from "@heroicons/react/24/solid";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Input } from "./ui/input";
+import PrimaryButton from "./PrimaryButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 py-40">
+    <div className="flex flex-col justify-center gap-10 py-40  px-[30px]">
       <div className="flex flex-col gap-3">
         {/* Titles */}
         <h1 className="text-d2 text-center font-semibold leading-tight">
@@ -25,9 +26,7 @@ const HeroSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-col gap-3">
-          <Button size="lg" className="bg-primary px-4 py-2 h-12">
-            Join Now
-          </Button>
+          <PrimaryButton>Join Now</PrimaryButton>
 
           <Button
             size="lg"
