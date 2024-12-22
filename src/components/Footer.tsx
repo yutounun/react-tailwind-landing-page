@@ -4,6 +4,7 @@ import Logo from "./Logo";
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row md:justify-around gap-6 bg-[#F4F6F9] px-[30px] py-16 text-neutral-100 bg-primary">
+      {/* Logo */}
       <div className="flex flex-col w-full md:w-64">
         <Logo />
 
@@ -14,6 +15,7 @@ const Footer = () => {
         </p>
       </div>
 
+      {/* Items */}
       <div className="flex gap-10 md:gap-60">
         <div className="flex flex-col gap-4">
           <span className="font-bold">Explore</span>
@@ -34,6 +36,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Social Media */}
       <div className="flex flex-col gap-4">
         <span className="font-bold">Social Media</span>
         <div className="flex gap-3">

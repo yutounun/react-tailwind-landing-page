@@ -9,11 +9,15 @@ const OnsiteSection = () => {
       <Subtitle>
         <span className="font-bold">Warehouse</span> Onsite
       </Subtitle>
+
+      {/* Map */}
       <div className="flex justify-center">
         <div className="relative w-80 h-52 md:w-[800px] md:h-[420px]">
           <Image src="/onsite.png" layout="fill" alt="map" />
         </div>
       </div>
+
+      {/* CTA Buttons */}
       <div className="flex flex-col md:flex-row md:justify-center gap-5">
         <PrimaryButton>Join Now</PrimaryButton>
         <Button
