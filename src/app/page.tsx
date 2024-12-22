@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import OnsiteSection from "@/components/OnsiteSection";
 import OperationModeSection from "@/components/OperationModeSection";
@@ -10,6 +11,7 @@ export default function Home() {
       <ServicesSection />
       <OperationModeSection />
       <OnsiteSection />
+      <Footer />
     </div>
   );
 }
