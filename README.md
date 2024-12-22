@@ -1,5 +1,6 @@
 # ShipUps SaaS Product
 A modern SaaS platform designed for seamless shipping management. Built with cutting-edge technologies, ShipUps delivers a user-friendly interface and powerful features to streamline logistics operations.
+![MacBook Pro 16_ - 1 (2)](https://github.com/user-attachments/assets/55fceccc-a93d-4153-ab75-79bd3c6546f5)
 
 ## 🌟 Live Demo
 Check out the live site: ShipUps
