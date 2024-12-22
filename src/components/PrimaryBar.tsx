@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const PrimaryBar = () => {
   return (
-    <div className="flex justify-between container p-[24px] md:px-[150px]">
+    <div className="flex justify-between w-full p-[24px] md:px-[150px]">
       <Logo />
 
       {/* Burger Menu (Mobile) */}
