@@ -11,37 +11,70 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "var(--primary)",
           light: "var(--primary-light)",
           dark: "var(--primary-dark)",
+          foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
           DEFAULT: "var(--secondary)",
           light: "var(--secondary-light)",
           dark: "var(--secondary-dark)",
+          foreground: "hsl(var(--secondary-foreground))",
         },
         neutral: {
+          "100": "var(--neutral-100)",
+          "200": "var(--neutral-200)",
+          "300": "var(--neutral-300)",
+          "400": "var(--neutral-400)",
+          "500": "var(--neutral-500)",
+          "600": "var(--neutral-600)",
+          "700": "var(--neutral-700)",
+          "800": "var(--neutral-800)",
+          "900": "var(--neutral-900)",
           DEFAULT: "var(--neutral-500)",
-          100: "var(--neutral-100)",
-          200: "var(--neutral-200)",
-          300: "var(--neutral-300)",
-          400: "var(--neutral-400)",
-          500: "var(--neutral-500)",
-          600: "var(--neutral-600)",
-          700: "var(--neutral-700)",
-          800: "var(--neutral-800)",
-          900: "var(--neutral-900)",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        chart: {
+          "1": "hsl(var(--chart-1))",
+          "2": "hsl(var(--chart-2))",
+          "3": "hsl(var(--chart-3))",
+          "4": "hsl(var(--chart-4))",
+          "5": "hsl(var(--chart-5))",
         },
       },
       spacing: {
-        containerPX: "1.5rem", // Consistent padding for containers
-        128: "32rem",
+        "128": "32rem",
+        containerPX: "1.5rem",
       },
       fontFamily: {
-        sans: ["Arial", "Helvetica", "sans-serif"], // Default sans-serif font
+        sans: ["Arial", "Helvetica", "sans-serif"],
+        lato: ["Lato"],
       },
       fontSize: {
         // Display styles
@@ -49,11 +82,22 @@ const config: Config = {
         d2: "40px", // Display 2 - operation mode
         d3: "36px", // Display 3
 
+        // Desktop-specific display styles
+        "d-d1": "64px", // Desktop Display 1
+        "d-d2": "56px", // Desktop Display 2
+        "d-d3": "48px", // Desktop Display 3
+
         // Heading styles
         h1: "40px", // Heading 1
         h2: "36px", // Heading 2 - most of headings
         h3: "24px", // Heading 3
         h4: "20px", // Heading 4
+
+        // Desktop-specific heading styles
+        "d-h1": "48px", // Desktop Heading 1
+        "d-h2": "42px", // Desktop Heading 2
+        "d-h3": "32px", // Desktop Heading 3
+        "d-h4": "28px", // Desktop Heading 4
 
         // Body text
         xs: "10px", // Extra small text
@@ -66,10 +110,28 @@ const config: Config = {
         "4xl": "36px", // 4 times extra large text
         "5xl": "48px", // 5 times extra large text
         "6xl": "64px", // 6 times extra large text
+
+        // Desktop-specific body text
+        "d-xs": "12px", // Desktop Extra small text
+        "d-sm": "14px", // Desktop Small text
+        "d-base": "16px", // Desktop Default text
+        "d-lg": "18px", // Desktop Large text
+        "d-xl": "20px", // Desktop Extra large text
+        "d-2xl": "24px", // Desktop 2 times extra large text
+        "d-3xl": "36px", // Desktop 3 times extra large text
+        "d-4xl": "48px", // Desktop 4 times extra large text
+        "d-5xl": "64px", // Desktop 5 times extra large text
+        "d-6xl": "80px", // Desktop 6 times extra large text
+      },
+
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 
 export default config;
