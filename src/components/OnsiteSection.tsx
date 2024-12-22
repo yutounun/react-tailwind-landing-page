@@ -10,14 +10,16 @@ const OnsiteSection = () => {
         <span className="font-bold">Warehouse</span> Onsite
       </Subtitle>
       <div className="flex justify-center">
-        <Image src="/onsite.png" height="100" width="300" alt="map" />
+        <div className="relative w-80 h-52 md:w-[800px] md:h-[420px]">
+          <Image src="/onsite.png" layout="fill" alt="map" />
+        </div>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col md:flex-row md:justify-center gap-5">
         <PrimaryButton>Join Now</PrimaryButton>
         <Button
           size="lg"
           variant="outline"
-          className="text-primary px-4 py-2 h-12 w-full"
+          className="text-primary px-4 py-2 h-12 w-full md:w-60"
         >
           Request Quote
         </Button>
