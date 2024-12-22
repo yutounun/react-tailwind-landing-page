@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import OnsiteSection from "@/components/OnsiteSection";
 import OperationModeSection from "@/components/OperationModeSection";
 import ServicesSection from "@/components/ServicesSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <OperationModeSection />
+      <OnsiteSection />
     </div>
   );
 }

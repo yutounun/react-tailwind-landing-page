@@ -7,7 +7,7 @@ import Subtitle from "./Subtitle";
 const ServicesSection = () => {
   return (
     <div className="flex flex-col gap-16 bg-[#F4F6F9] px-[30px] py-16">
-      <Subtitle>
+      <Subtitle icon>
         <span className="font-bold">Services</span> we offer
       </Subtitle>
 
