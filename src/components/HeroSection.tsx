@@ -6,24 +6,26 @@ import PrimaryButton from "./PrimaryButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 py-40 px-[30px] md:px-[150px]">
-      <div className="flex gap-10 flex-col md:flex-row md:gap-20">
-        <div className="flex flex-col gap-3 md:w-full">
-          {/* Titles */}
-          <h1 className="text-d2 text-center md:text-start font-semibold leading-tight md:leading-relaxed">
-            Quick & Reliable{" "}
-            <span className="text-d1 text-secondary font-bold leading-3">
-              Warehousing and Logistics
-            </span>{" "}
-            Solution.
-          </h1>
+    <div className="flex flex-col justify-center gap-10 py-16 px-[30px] md:px-[150px]">
+      <div className="flex gap-10 flex-col md:flex-row md:gap-20 md:items-center">
+        <div className="flex flex-col gap-6 md:w-full">
+          <div>
+            {/* Titles */}
+            <h1 className="text-d2 text-center md:text-start font-semibold leading-tight md:leading-relaxed">
+              Quick & Reliable{" "}
+              <span className="text-d1 text-secondary font-bold leading-3">
+                Warehousing and Logistics
+              </span>{" "}
+              Solution.
+            </h1>
 
-          {/* Desc */}
-          <p className="text-base text-center md:text-start text-neutral-700">
-            ShipUp delivers an unparalleled customer service through dedicated
-            customer teams, engaged people working in an agile culture, and a
-            global footprint
-          </p>
+            {/* Desc */}
+            <p className="text-base text-center md:text-start text-neutral-700">
+              ShipUp delivers an unparalleled customer service through dedicated
+              customer teams, engaged people working in an agile culture, and a
+              global footprint
+            </p>
+          </div>
 
           {/* Buttons */}
           <div className="flex flex-col md:flex-row gap-3">

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col w-full md:w-64">
         <Logo />
 
-        <p className="text-sm">
+        <p className="text-sm md:text-d-sm">
           ShipUp delivers an unparalleled customer service through dedicated
           customer teams, engaged people working in an agile culture, and a
           global footprint
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="flex gap-10 md:gap-60">
         <div className="flex flex-col gap-4">
           <span className="font-bold">Explore</span>
-          <div className="flex flex-col gap-2 text-sm">
+          <div className="flex flex-col gap-2 text-sm md:text-d-sm">
             <span>About Us</span>
             <span>Our Warehouses</span>
             <span>Blog</span>
@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="flex flex-col gap-4">
           <span className="font-bold">Legal</span>
-          <div className="flex flex-col gap-2 text-sm">
+          <div className="flex flex-col gap-2 text-sm md:text-d-sm">
             <span>Terms</span>
             <span>Privacy</span>
           </div>

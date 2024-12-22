@@ -13,6 +13,7 @@ const OperationalModeSection = () => {
         title="Connect"
         desc="You’re currently running your store on Shopify, , or any other platform. As a first step, you’ll connect your store with our platform."
         imgSrc="/mode1.jpg"
+        reversed
       />
 
       <Mode
@@ -27,6 +28,7 @@ const OperationalModeSection = () => {
         title="Ship"
         desc="We pick, pack and ship all incoming orders directly from our own warehouse until 12pm on the same day,"
         imgSrc="/mode3.jpg"
+        reversed
       />
     </div>
   );
