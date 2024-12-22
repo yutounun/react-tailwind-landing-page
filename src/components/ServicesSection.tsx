@@ -11,7 +11,7 @@ const ServicesSection = () => {
         <span className="font-bold">Services</span> we offer
       </Subtitle>
 
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col md:flex-row gap-16">
         <Service
           title="warehousing services"
           desc="A pay as-you-go solution for: pallet storage, inventory management, fulfillment(e.g. pick and pack), in/out-bound solutions, and more."
@@ -31,12 +31,12 @@ const ServicesSection = () => {
         />
       </div>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col md:flex-row gap-5 md:justify-center">
         <PrimaryButton>Join Now</PrimaryButton>
         <Button
           size="lg"
           variant="outline"
-          className="text-primary px-4 py-2 h-12 w-full"
+          className="text-primary px-4 py-2 h-12 w-full md:w-60"
         >
           Request Quote
         </Button>
