@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
     <div className="flex flex-col gap-6 bg-[#F4F6F9] px-[30px] py-16 text-neutral-100 bg-primary">
-      <h3 className="text-xl">
-        <span className="text-secondary">Ship</span>Up
-      </h3>
+      <Logo />
+
       <p className="text-sm">
         ShipUp delivers an unparalleled customer service through dedicated
         customer teams, engaged people working in an agile culture, and a global

@@ -6,7 +6,7 @@ import PrimaryButton from "./PrimaryButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 py-40  px-[30px]">
+    <div className="flex flex-col justify-center gap-10 py-40 px-[30px]">
       <div className="flex flex-col gap-3">
         {/* Titles */}
         <h1 className="text-d2 text-center font-semibold leading-tight">
