@@ -72,6 +72,9 @@ const config: Config = {
         "128": "32rem",
         containerPX: "1.5rem",
       },
+      boxShadow: {
+        custom: "0px 4px 15px rgba(0, 0, 0, 0.1)", // Custom shadow
+      },
       fontFamily: {
         sans: ["Arial", "Helvetica", "sans-serif"],
         lato: ["Lato"],
