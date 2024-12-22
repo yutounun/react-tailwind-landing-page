@@ -1,7 +1,6 @@
 import Logo from "./Logo";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import NavItem from "./NavItem";
-import PrimaryButton from "./PrimaryButton";
 import { Button } from "./ui/button";
 
 const PrimaryBar = () => {
