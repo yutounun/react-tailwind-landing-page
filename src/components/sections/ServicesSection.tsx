@@ -1,8 +1,8 @@
 import React from "react";
-import Service from "./Service";
-import PrimaryButton from "./PrimaryButton";
-import { Button } from "./ui/button";
-import Subtitle from "./Subtitle";
+import Service from "@/components/small/Service";
+import PrimaryButton from "@/components/small/PrimaryButton";
+import { Button } from "@/components/ui/button";
+import Subtitle from "@/components/small/Subtitle";
 
 const ServicesSection = () => {
   return (

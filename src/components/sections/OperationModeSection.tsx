@@ -1,5 +1,5 @@
-import Mode from "./Mode";
-import Subtitle from "./Subtitle";
+import Mode from "@/components/small/Mode";
+import Subtitle from "@/components/small/Subtitle";
 
 const OperationalModeSection = () => {
   return (

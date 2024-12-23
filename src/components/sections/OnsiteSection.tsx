@@ -1,7 +1,7 @@
 import Image from "next/image";
-import PrimaryButton from "./PrimaryButton";
-import Subtitle from "./Subtitle";
-import { Button } from "./ui/button";
+import PrimaryButton from "@/components/small/PrimaryButton";
+import Subtitle from "@/components/small/Subtitle";
+import { Button } from "@/components/ui/button";
 
 const OnsiteSection = () => {
   return (

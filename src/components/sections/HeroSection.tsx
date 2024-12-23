@@ -1,8 +1,8 @@
 import { VideoCameraIcon } from "@heroicons/react/24/solid";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { Input } from "./ui/input";
-import PrimaryButton from "./PrimaryButton";
+import { Input } from "@/components/ui/input";
+import PrimaryButton from "@/components/small/PrimaryButton";
 
 const HeroSection = () => {
   return (
@@ -47,11 +47,11 @@ const HeroSection = () => {
         {/* Image */}
         <Image
           className="md:w-full"
-          src="/bike.png"
+          src="/heroImg.jpg"
           height="366"
           width="366"
           alt="100"
-        ></Image>
+        />
       </div>
 
       {/* Form */}
