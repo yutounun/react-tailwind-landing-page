@@ -3,10 +3,11 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import PrimaryButton from "@/components/small/PrimaryButton";
+import SecondaryButton from "../small/SecondaryButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 py-16 px-[30px] md:px-[150px]">
+    <div className="flex flex-col justify-center gap-10 md:gap-16 py-16 px-[30px] md:px-[150px]">
       <div className="flex gap-10 flex-col md:flex-row md:gap-20 md:items-center">
         <div className="flex flex-col gap-6 md:w-full">
           <div>
@@ -31,16 +32,12 @@ const HeroSection = () => {
           <div className="flex flex-col md:flex-row gap-3">
             <PrimaryButton>Join Now</PrimaryButton>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="w-full flex items-center gap-2 justify-center text-neutral-800 px-4 py-2 h-12 md:w-60"
-            >
+            <SecondaryButton>
               <div className="rounded-full p-2">
                 <VideoCameraIcon className="size-6 text-primary" />
               </div>
               Play Demo
-            </Button>
+            </SecondaryButton>
           </div>
         </div>
 
