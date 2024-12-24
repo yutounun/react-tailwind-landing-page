@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col justify-center gap-10 md:gap-16 py-16 px-[30px] md:px-[150px]">
       <div className="flex gap-10 flex-col md:flex-row md:gap-20 md:items-center">
-        <div className="flex flex-col gap-6 md:w-full">
+        <div className="flex flex-col gap-6 md:w-full animate-slideIn">
           <div>
             {/* Titles */}
             <h1 className="text-d2 text-center md:text-start font-semibold leading-tight md:leading-relaxed">
